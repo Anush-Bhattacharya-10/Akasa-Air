@@ -5,14 +5,53 @@ body {
   color: white;
 }
 
-header {
-  padding: 12px;
-  text-align: center;
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
   background: #ffcc00;
   color: black;
 }
 
+nav a {
+  margin-left: 15px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: #ffcc00;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.page {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.fleet-card {
+  background: #1c1c1c;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 4px solid #ffcc00;
+}
+
 #map {
-  height: calc(100vh - 110px);
-  width: 100%;
+  height: calc(100vh - 60px);
 }
